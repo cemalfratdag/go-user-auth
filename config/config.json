@@ -1,0 +1,20 @@
+{
+  "db": {
+    "host": "localhost",
+    "user": "postgres",
+    "password": "password",
+    "dbname": "mydatabase",
+    "port": "5432",
+    "sslmode": "disable"
+  },
+  "server": {
+    "port": "3003"
+  },
+  "jwt": {
+    "accessSecret": "supersecrethardtoguesswordforaccesstoken",
+    "refreshSecret": "supersecrethardtoguesswordforrefreshtoken",
+    "accessInterval": 15,
+    "refreshInterval": 120
+  }
+}
+
