@@ -69,6 +69,12 @@ func (r *UserRepository) UpdateUser(user entity.User) error {
 	if err != nil {
 		return err
 	}
+
+	err = r.db.Model(&user).Association("Roles").Replace(user.Roles)
+	if err != nil {
+		return err
+	}
+
 	return nil
 }
 
