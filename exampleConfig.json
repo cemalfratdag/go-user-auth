@@ -1,0 +1,20 @@
+{
+  "db": {
+    "host": "hostname",
+    "user": "username",
+    "password": "password",
+    "dbname": "dbname",
+    "port": "5432",
+    "sslmode": "sslmode"
+  },
+  "server": {
+    "port": "3000"
+  },
+  "jwt": {
+    "accessSecret": "secret",
+    "refreshSecret": "secret",
+    "accessInterval": 1,
+    "refreshInterval": 1
+  }
+}
+
